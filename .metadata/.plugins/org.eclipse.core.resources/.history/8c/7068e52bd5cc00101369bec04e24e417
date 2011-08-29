@@ -1,0 +1,17 @@
+'''
+Created on 2011-8-22
+
+@author: qifei
+'''
+
+class MyClass(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(selfparams):
+        '''
+        Constructor
+        '''
+        

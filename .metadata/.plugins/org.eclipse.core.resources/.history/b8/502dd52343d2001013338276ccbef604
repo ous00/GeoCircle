@@ -1,0 +1,6 @@
+# Create your views here.
+from django.http import HttpResponse
+
+def addContent(request):
+    message = request.POST.get('message', '')
+    return HttpResponse('you sumbited', message )

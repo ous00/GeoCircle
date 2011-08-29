@@ -1,0 +1,20 @@
+from datetime import datetime
+class Circle:
+    __name__ = None
+    __members__ = []
+    __created_time = datetime.now()
+    __contents__ = []
+    
+    def __init__(self):
+        pass
+    
+    def __unicode__(self):
+        return __name__
+    
+    def postContent(self, content):
+        __contents__.append(content)
+    
+    def getContents(self):
+        return __contents__
+    
+    

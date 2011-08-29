@@ -1,0 +1,25 @@
+'''
+Created on 2011-8-22
+
+@author: qifei
+'''
+
+class CircleUser(object):
+    '''
+    classdocs
+    '''
+    user_name__ = 'anonymous'
+    location__ = None
+
+    def __init__(self, name):
+        '''
+        Constructor
+        '''
+        pass
+    
+    def setLocation(self):
+        pass
+    
+
+    
+    

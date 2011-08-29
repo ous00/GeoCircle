@@ -1,0 +1,19 @@
+'''
+Created on 2011-8-27
+
+@author: qifei
+'''
+
+class Content(object):
+    '''
+    classdocs
+    '''
+    describtion = ''
+
+    def __init__(self):
+        '''
+        Constructor
+        '''
+        pass
+    
+    def 

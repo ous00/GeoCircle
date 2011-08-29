@@ -1,0 +1,26 @@
+'''
+Created on 2011-8-22
+
+@author: qifei
+'''
+from Location import Location
+class CircleUser(object):
+    '''
+    classdocs
+    '''
+    user_name = 'anonymous'
+    location = None
+
+    def __init__(self, name, location=None):
+        '''
+        Constructor
+        '''
+        self.user_name = name
+        self.location = location
+    
+    def setLocation(self, location):
+        self.location = location
+    
+
+    
+    

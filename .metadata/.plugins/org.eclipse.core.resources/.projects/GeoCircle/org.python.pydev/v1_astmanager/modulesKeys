@@ -1,0 +1,36 @@
+MODULES_MANAGER_V1
+GeoCircle.__init__|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/__init__.py
+GeoCircle.content.__init__|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/__init__.py
+GeoCircle.content.models|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/models.py
+GeoCircle.content.tests|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/tests.py
+GeoCircle.content.views|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/views.py
+GeoCircle.geo.Circle.CircleUser|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/Circle/CircleUser.py
+GeoCircle.geo.Circle.Location|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/Circle/Location.py
+GeoCircle.geo.Circle.__init__|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/Circle/__init__.py
+GeoCircle.geo.Circle.circle|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/Circle/circle.py
+GeoCircle.geo.Circle.circleManager|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/Circle/circleManager.py
+GeoCircle.geo.__init__|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/__init__.py
+GeoCircle.geo.admin|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/admin.py
+GeoCircle.geo.models|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/models.py
+GeoCircle.geo.tests|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/tests.py
+GeoCircle.geo.views|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/views.py
+GeoCircle.manage|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/manage.py
+GeoCircle.settings|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/settings.py
+GeoCircle.urls|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/urls.py
+djangotoolbox.__init__|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.admin|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.db.__init__|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.db.base|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.db.basecompiler|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.db.creation|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.errorviews|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.fields|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.http|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.middleware|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.models|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.sites.__init__|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.sites.dynamicsite|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.test|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.tests|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.utils|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
+djangotoolbox.widgets|/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg

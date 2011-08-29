@@ -1,0 +1,12 @@
+# Create your views here.
+from django.http import HttpResponse
+from django.shortcuts import render_to_response
+from GeoCircle.content.models import Content
+
+def addContent(request):
+    message = request.POST.get('message', '')
+#    message = request.GET.get('message','')
+    if not len(message) == 0: 
+        return HttpResponse(u'you sumbited %s' % message )
+    else:
+        return render_to_response('form.html')

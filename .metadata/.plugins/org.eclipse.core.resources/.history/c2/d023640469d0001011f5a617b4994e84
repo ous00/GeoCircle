@@ -1,0 +1,61 @@
+'''
+Created on 2011-8-27
+
+@author: qifei
+'''
+from django.db import models
+from djangotoolbox.fields import BlobField
+
+
+class Content(models.Model):
+    '''
+    classdocs
+    '''
+    description = models.CharField(max_length=200)
+    type        = models.IntegerField()
+    created_on  = models.DateTimeField('Created On')
+    author_id   = models.IntegerField()
+    store       = BlobField()    
+
+   
+    
+    @staticmethod
+    def hander(type):
+         __hander_map__ = {
+                      Content.Type.TEXT: getattr(Content, 'asString'), 
+                      Content.Type.XML : Content.asXML,
+                      }
+        return Content.__hander_map__[type]
+
+    def __init__(self, description):
+        '''
+        Constructor
+        '''
+        self.description = description
+    
+    def asBinary(self):
+        return None
+    
+    def asXML(self):
+        return None
+    
+    def asHTML(self):
+        return None
+    
+    def asString(self):
+        return None
+    
+    class Type:
+        TEXT    = 0
+        XML     = 1
+        VIDEO   = 2
+        AUDIO   = 3
+
+       
+            
+    
+class TextContent(Content):
+    '''
+    a text message content
+    '''
+    pass

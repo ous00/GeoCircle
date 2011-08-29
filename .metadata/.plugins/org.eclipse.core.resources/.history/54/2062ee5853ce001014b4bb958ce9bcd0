@@ -1,0 +1,14 @@
+from circle import *
+from CircleUser import *
+
+class CircleManager(object):
+    _circles = {}
+    
+    def __init__(self):
+        pass
+    
+    def newCircle(self, type, name, **parameter):
+        if type == 'geo':
+            return GeoCircle(name, **parameter)
+        else:
+            return Circle(name)

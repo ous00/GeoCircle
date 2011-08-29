@@ -1,0 +1,17 @@
+'''
+Created on 2011-8-26
+
+@author: qifei
+'''
+
+class Location(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(selfparams):
+        '''
+        Constructor
+        '''
+        pass
