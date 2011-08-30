@@ -3,7 +3,6 @@
 /Library/Python/2.7/site-packages/docutils-0.8-py2.7.egg
 /Library/Python/2.7/site-packages/Jinja2-2.6-py2.7.egg
 /Library/Python/2.7/site-packages/django_mongodb_engine-0.4.0-py2.7.egg
-/Library/Python/2.7/site-packages/djangotoolbox-0.9.2-py2.7.egg
 /Library/Python/2.7/site-packages/pymongo-2.0.1-py2.7-macosx-10.7-intel.egg
 /Library/Python/2.7/site-packages/Pygments-1.4-py2.7.egg
 /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip
@@ -17,3 +16,4 @@
 /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload
 /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC
 /Library/Python/2.7/site-packages
+/Library/Python/2.7/site-packages/djangotoolbox.egg

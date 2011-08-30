@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 from datetime import datetime
-
+from distance import distance
+from Location import Location
 class Circle:
     __name__ = None
     __members__ = []
@@ -23,18 +24,23 @@ class Circle:
         if not user in self.__members__:
             self.__members__.append(user)
     
+    
+        
+    
 class GeoCircle(Circle):
-    __center__ = None
-    __diameter__ = 500 #meters
+    center = None
+    diameter = 500 #meters
     
-    def __init__(self, name, location, diameter):
+    def __init__(self, name, location, radius):
         Circle.__init__(self, name);
-        __center__ = location
-        __diameter__ = diameter
+        self.center = location
+        self.radius = radius
 
-
-    
+    def insideMe(self, location):
+        return distance(self.center,location) < self.radius 
 if __name__ == '__main__':
-    circle = GeoCircle( u"test circle", 10, 200)   
+    circle = GeoCircle( u"test circle", Location(0, 0), 2000)   
+    print circle.insideMe(Location(0.01,0.01))
+    print distance(Location(0,0), Location(0.0001, 0.0001))
     print unicode(circle)
     

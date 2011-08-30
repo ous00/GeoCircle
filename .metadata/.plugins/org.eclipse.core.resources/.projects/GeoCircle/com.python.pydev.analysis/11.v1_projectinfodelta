@@ -1,5 +1,22 @@
-INSTUPGeoCircle.content.views
-/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/views.py
-INFOS:&&2|1|2|0
-addContent=1
-GeoCircle.content.views=2
+INSTUPGeoCircle.geo.Circle.circle
+/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/Circle/circle.py
+INFOS:&&1|1|2|0&&3|3|2|1&&3|4|2|1&&3|5|2|1&&3|6|2|1&&2|7|2|1&&3|3|2|8&&2|9|2|1&&2|10|2|1&&2|11|2|1&&2|12|2|1&&1|13|2|0&&3|14|2|13&&3|15|2|13&&2|7|2|13&&3|14|2|16&&3|17|2|16&&2|18|2|13&&3|19|2|0
+GeoCircle=13
+diameter=15
+__name__=3
+__unicode__=9
+Circle.__init__=8
+getContents=11
+addUser=12
+circle=19
+postContent=10
+__members__=4
+center=14
+__init__=7
+GeoCircle.geo.Circle.circle=2
+__contents__=6
+insideMe=18
+radius=17
+GeoCircle.__init__=16
+Circle=1
+__created_time=5
