@@ -1,7 +1,9 @@
-#Sat Aug 20 01:02:09 CST 2011
-org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+#Tue Aug 30 01:09:02 CST 2011
 org.eclipse.debug.ui.consoleBackground=20,20,20
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
 org.eclipse.debug.ui.outColor=248,248,248
+pref_state_memento.org.eclipse.debug.ui.DebugVieworg.eclipse.debug.ui.DebugView=<?xml version\="1.0" encoding\="UTF-8"?>\n<DebugViewMemento org.eclipse.debug.ui.BREADCRUMB_DROPDOWN_AUTO_EXPAND\="false"/>
+preferredDetailPanes=DefaultDetailPane\:DefaultDetailPane|
 org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND=74,65,13
 preferredTargets=default\:default|
 eclipse.preferences.version=1

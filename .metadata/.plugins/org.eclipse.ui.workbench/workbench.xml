@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="38" version="2.0">
 <workbenchAdvisor/>
-<window height="774" width="1082" x="198" y="22">
+<window height="774" width="1240" x="0" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -11,6 +11,7 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="106" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.python.pydev.debug.actionSet" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
@@ -18,6 +19,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -45,6 +47,9 @@
 <part id="12"/>
 <part id="13"/>
 <part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
 </presentation>
 </folder>
 </info>
@@ -59,19 +64,19 @@
 </editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="settings.py" partName="settings" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/settings.py" title="settings" tooltip="GeoCircle/src/GeoCircle/settings.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/settings.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4932" selectionTopPixel="1759"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3981" selectionTopPixel="1298"/>
 </editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="CircleUser.py" partName="CircleUser" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/Circle/CircleUser.py" title="CircleUser" tooltip="GeoCircle/src/GeoCircle/geo/Circle/CircleUser.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/geo/Circle/CircleUser.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="66" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="81" selectionTopPixel="0"/>
 </editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="circleManager.py" partName="circleManager" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/Circle/circleManager.py" title="circleManager" tooltip="GeoCircle/src/GeoCircle/geo/Circle/circleManager.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/geo/Circle/circleManager.py"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="53" selectionTopPixel="0"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="admin.py" partName="admin" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/admin.py" title="admin" tooltip="GeoCircle/src/GeoCircle/geo/admin.py" workbook="DefaultEditorWorkbook">
+<editor id="org.python.pydev.editor.PythonEditor" name="admin.py" partName="admin (geo)" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/admin.py" title="admin (geo)" tooltip="GeoCircle/src/GeoCircle/geo/admin.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/geo/admin.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="133" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="101" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 <editor id="com.aptana.editor.js" name="t.js" partName="t.js" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/t.js" title="t.js" tooltip="GeoCircle/t.js" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/t.js"/>
@@ -85,33 +90,44 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/geo/__init__.py"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="views.py" partName="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/views.py" title="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" tooltip="GeoCircle/src/GeoCircle/geo/views.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/geo/views.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="tests.py" partName="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/tests.py" title="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" tooltip="GeoCircle/src/GeoCircle/geo/tests.py" workbook="DefaultEditorWorkbook">
+<editor id="org.python.pydev.editor.PythonEditor" name="tests.py" partName="tests" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/tests.py" title="tests" tooltip="GeoCircle/src/GeoCircle/geo/tests.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/geo/tests.py"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="models.py" partName="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/models.py" title="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" tooltip="GeoCircle/src/GeoCircle/content/models.py" workbook="DefaultEditorWorkbook">
+<editor id="org.python.pydev.editor.PythonEditor" name="models.py" partName="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/models.py" title="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" tooltip="GeoCircle/src/GeoCircle/content/models.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/content/models.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="107" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="307" selectionTopPixel="0"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="base.py" partName="base" title="base" tooltip="/Library/Python/2.7/site-packages/django/db/models/base.py" workbook="DefaultEditorWorkbook">
+<editor id="org.python.pydev.editor.PythonEditor" name="base.py" partName="base (models)" title="base (models)" tooltip="/Library/Python/2.7/site-packages/django/db/models/base.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Library/Python/2.7/site-packages/django/db/models/base.py"/>
 <editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="2219" selectionTopPixel="405"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="views.py" partName="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/views.py" title="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" tooltip="GeoCircle/src/GeoCircle/content/views.py" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="views.py" partName="views" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/views.py" title="views" tooltip="GeoCircle/src/GeoCircle/content/views.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/content/views.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="182" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="admin.py" partName="admin (content)" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/admin.py" title="admin (content)" tooltip="GeoCircle/src/GeoCircle/content/admin.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/content/admin.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="106" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="urls.py" partName="urls" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/urls.py" title="urls" tooltip="GeoCircle/src/GeoCircle/urls.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/urls.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="618" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.html" name="form.html" partName="form.html" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/templates/form.html" title="form.html" tooltip="GeoCircle/src/GeoCircle/templates/form.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/templates/form.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="197" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="manage.py" partName="manage" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/manage.py" title="manage" tooltip="GeoCircle/src/GeoCircle/manage.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/manage.py"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="tests.py" partName="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" path="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/tests.py" title="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" tooltip="GeoCircle/src/GeoCircle/content/tests.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GeoCircle/src/GeoCircle/content/tests.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="218" selectionTopPixel="0"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="base.py" partName="base (handlers)" title="base (handlers)" tooltip="/Library/Python/2.7/site-packages/django/core/handlers/base.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Library/Python/2.7/site-packages/django/core/handlers/base.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4626" selectionTopPixel="1590"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer"/>
 <view id="com.aptana.terminal.views.terminal" partName="Terminal">
 <viewState>
 <title>Terminal</title>
@@ -119,6 +135,31 @@
 </viewState>
 </view>
 <view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="com.aptana.explorer.view" partName="App Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="GeoCircle">
+<project name="GeoCircle">&#x0A;<selection>&#x0A;<element path="/GeoCircle"/>
+</selection>
+</project>
+</viewState>
+</view>
+<view id="org.python.pydev.debug.pyunit.pyUnitView" partName="PyUnit">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer"/>
+<view id="com.aptana.js.debug.ui.scriptsView" partName="Loaded Scripts"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>&#x0A;<category IMemento.internal.id="Warnings (1 item)"/>
@@ -134,19 +175,6 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="com.aptana.explorer.view" partName="App Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="GeoCircle">
-<project name="GeoCircle">&#x0A;<selection>&#x0A;<element path="/GeoCircle"/>
-</selection>
-</project>
-</viewState>
-</view>
-<view id="org.python.pydev.debug.pyunit.pyUnitView" partName="PyUnit">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
 <view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
 <expanded IMemento.internal.id="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle"/>
@@ -157,11 +185,12 @@
 <expanded IMemento.internal.id="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/tests.py"/>
 <expanded IMemento.internal.id="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo"/>
 <expanded IMemento.internal.id="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/geo/Circle"/>
-<selected IMemento.internal.id="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle"/>
+<expanded IMemento.internal.id="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/templates"/>
+<selected IMemento.internal.id="/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/admin.py"/>
 </viewState>
 </view>
 </views>
-<perspectives activePart="org.python.pydev.navigator.view" activePerspective="org.python.pydev.ui.PythonPerspective">
+<perspectives activePart="com.aptana.terminal.views.terminal" activePerspective="org.python.pydev.ui.PythonPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -303,7 +332,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2592282" ratioLeft="309" ratioRight="883" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.5416268" ratioLeft="566" ratioRight="479" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.74891144" ratioLeft="516" ratioRight="173" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.aptana.terminal.views.terminal" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -330,130 +359,247 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.aptana.js.debug.ui.actionSet"/>
+<alwaysOnActionSet id="com.aptana.terminal.actionSet"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<alwaysOnActionSet id="com.python.pydev.debug.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.python.pydev.exceptionBreakpoints"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.aptana.js.debug.ui.scriptsView"/>
+<show_view_action id="com.aptana.js.debug.ui.AJAXMonitorView"/>
+<show_view_action id="com.aptana.ruby.debug.ui.DisplayView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<perspective_action id="com.aptana.ui.WebPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="com.aptana.js.debug.ui.scriptsView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495854" ratioLeft="904" ratioRight="302" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74891144" ratioLeft="516" ratioRight="173" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="com.aptana.ruby.debug.ui.DisplayView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.4496124" ratioLeft="232" ratioRight="284" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495854" ratioLeft="904" ratioRight="302" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="603" ratioRight="603" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="com.aptana.js.debug.ui.scriptsView" label="Loaded Scripts"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/tests.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/models.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/models.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/__init__.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/views.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/tests.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/views.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/admin.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/settings.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/Circle/circleManager.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/Circle/Location.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/Circle/circle.py"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/Library/Python/2.7/site-packages/django/db/models/base.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/views.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/tests.py"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/Library/Python/2.7/site-packages/django/core/handlers/base.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/urls.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/GeoCircle/src/GeoCircle/content/templates/form.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/GeoCircle/src/templates/form.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/GeoCircle/src/GeoCircle/templates/form.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/Library/Python/2.7/site-packages/django/template/context.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/manage.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/models.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/__init__.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/views.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/tests.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/views.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/tests.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/models.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/models.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/__init__.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/views.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/tests.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/views.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/models.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/models.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/__init__.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/views.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/geo/tests.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/GeoCircle/src/GeoCircle/content/views.py"/>
 </editors>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="359" y="0"/>
+<item historyLabel="form.html" index="7">
+<position info="not_deleted" x="184" y="0"/>
 </item>
-<item historyLabel="models.py | geo" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="form.html" index="7">
+<position info="not_deleted" x="183" y="0"/>
 </item>
-<item historyLabel="geo" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="form.html" index="8">
+<position info="not_deleted" x="184" y="0"/>
 </item>
-<item historyLabel="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="200" y="0"/>
-</item>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="79" y="0"/>
-</item>
-<item historyLabel="settings" index="5">
-<position info="not_deleted" x="4932" y="0"/>
-</item>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="922" y="0"/>
-</item>
-<item historyLabel="models.py | geo" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="circleManager" index="6">
-<position info="not_deleted" x="53" y="0"/>
-</item>
-<item historyLabel="Location" index="7">
-<position info="not_deleted" x="362" y="0"/>
-</item>
-<item historyLabel="circle" index="8">
-<position info="not_deleted" x="24" y="30"/>
-</item>
-<item historyLabel="models.py | content" index="0">
+<item historyLabel="base (handlers)" index="5">
 <position/>
 </item>
-<item historyLabel="circle" index="8">
-<position info="not_deleted" x="24" y="30"/>
+<item historyLabel="form.html" index="8">
+<position info="not_deleted" x="184" y="0"/>
 </item>
-<item historyLabel="models.py | content" index="0">
-<position/>
+<item historyLabel="urls" index="6">
+<position info="not_deleted" x="618" y="0"/>
 </item>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="705" y="216"/>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="408" y="0"/>
 </item>
-<item historyLabel="models.py | content" index="0">
-<position/>
+<item historyLabel="settings" index="4">
+<position info="not_deleted" x="4586" y="0"/>
 </item>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="1348" y="0"/>
+<item historyLabel="form.html" index="9">
+<position info="not_deleted" x="198" y="0"/>
 </item>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="150" y="28"/>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="360" y="0"/>
 </item>
-<item historyLabel="base" index="9">
-<position info="not_deleted" x="2196" y="0"/>
+<item historyLabel="models.py | content" index="1">
+<position info="not_deleted" x="307" y="0"/>
 </item>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="150" y="28"/>
+<item historyLabel="settings" index="4">
+<position info="not_deleted" x="4254" y="0"/>
 </item>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="704" y="0"/>
+<item historyLabel="models.py | content" index="1">
+<position info="not_deleted" x="307" y="0"/>
 </item>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="150" y="28"/>
+<item historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="0">
+<position info="not_deleted" x="225" y="0"/>
 </item>
-<item historyLabel="base" index="9">
-<position info="not_deleted" x="2219" y="9"/>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="360" y="0"/>
 </item>
-<item historyLabel="models.py | content" index="0">
-<position info="not_deleted" x="1154" y="0"/>
-</item>
-<item historyLabel="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="10">
+<item historyLabel="context" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="11">
-<position info="not_deleted" x="218" y="0"/>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="360" y="0"/>
 </item>
-<item historyLabel="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="10">
+<item historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="0">
+<position info="not_deleted" x="217" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="346" y="0"/>
+</item>
+<item historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="0">
+<position info="not_deleted" x="217" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="346" y="0"/>
+</item>
+<item historyLabel="form.html" index="9">
+<position info="not_deleted" x="197" y="0"/>
+</item>
+<item historyLabel="models.py | content" index="1">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="form.html" index="9">
+<position info="not_deleted" x="197" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="346" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="228" y="44"/>
+</item>
+<item historyLabel="settings" index="4">
+<position info="not_deleted" x="3981" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="273" y="0"/>
+</item>
+<item historyLabel="manage" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="0">
-<position info="not_deleted" x="1154" y="0"/>
+<item historyLabel="admin (content)" index="3">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="273" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="273" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="373" y="0"/>
+</item>
+<item historyLabel="base (handlers)" index="5">
+<position info="not_deleted" x="4626" y="0"/>
+</item>
+<item historyLabel="base (handlers)" index="5">
+<position info="not_deleted" x="5375" y="0"/>
+</item>
+<item historyLabel="base (handlers)" index="5">
+<position info="not_deleted" x="5925" y="0"/>
+</item>
+<item historyLabel="base (handlers)" index="5">
+<position info="not_deleted" x="8133" y="0"/>
+</item>
+<item historyLabel="base (handlers)" index="5">
+<position info="not_deleted" x="8177" y="0"/>
+</item>
+<item historyLabel="base (handlers)" index="5">
+<position info="not_deleted" x="8258" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="373" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="273" y="0"/>
+</item>
+<item historyLabel="views.py" index="2">
+<position info="not_deleted" x="304" y="0"/>
+</item>
+<item historyLabel="base (handlers)" index="5">
+<position info="not_deleted" x="4626" y="0"/>
+</item>
+<item historyLabel="views" index="2">
+<position info="not_deleted" x="182" y="0"/>
 </item>
 <item historyLabel="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="12">
 <position info="not_deleted" x="0" y="0"/>
@@ -461,59 +607,11 @@
 <item historyLabel="geo" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="14">
+<item historyLabel="tests" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="16">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="17">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="18">
-<position info="not_deleted" x="705" y="217"/>
-</item>
-<item historyLabel="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="19">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="geo" index="20">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="21">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="22">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="23">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="17">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="24">
-<position info="not_deleted" x="705" y="217"/>
-</item>
-<item historyLabel="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="25">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="geo" index="26">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="27">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="28">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="views (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="29">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="tests (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="17">
-<position info="not_deleted" x="218" y="0"/>
+<item active="true" historyLabel="models (Users.qifei.Documents.Aptana Studio 3 Workspace.GeoCircle.src.GeoCircle)" index="15">
+<position info="not_deleted" x="307" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -535,6 +633,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="base.py" tooltip="/Library/Python/2.7/site-packages/django/core/handlers/base.py">
+<persistable uri="file:/Library/Python/2.7/site-packages/django/core/handlers/base.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="manage.py" tooltip="GeoCircle/src/GeoCircle/manage.py">
+<persistable path="/GeoCircle/src/GeoCircle/manage.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="context.py" tooltip="/Library/Python/2.7/site-packages/django/template/context.py">
+<persistable uri="file:/Library/Python/2.7/site-packages/django/template/context.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="urls.py" tooltip="GeoCircle/src/GeoCircle/urls.py">
+<persistable path="/GeoCircle/src/GeoCircle/urls.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="pymongo-2.0.1-py2.7-macosx-10.7-intel.egg" tooltip="/Library/Python/2.7/site-packages/pymongo-2.0.1-py2.7-macosx-10.7-intel.egg">
+<persistable uri="file:/Library/Python/2.7/site-packages/pymongo-2.0.1-py2.7-macosx-10.7-intel.egg"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="admin.py" tooltip="GeoCircle/src/GeoCircle/content/admin.py">
+<persistable path="/GeoCircle/src/GeoCircle/content/admin.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="tests.py" tooltip="GeoCircle/src/GeoCircle/content/tests.py">
 <persistable path="/GeoCircle/src/GeoCircle/content/tests.py"/>
 </file>
@@ -558,27 +674,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="GeoCircle/src/GeoCircle/geo/Content/__init__.py">
 <persistable path="/GeoCircle/src/GeoCircle/geo/Content/__init__.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Content.py" tooltip="GeoCircle/src/Circle/Content.py">
-<persistable path="/GeoCircle/src/Circle/Content.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Location.py" tooltip="GeoCircle/src/Circle/Location.py">
-<persistable path="/GeoCircle/src/Circle/Location.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="t.js" tooltip="GeoCircle/t.js">
-<persistable path="/GeoCircle/t.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="admin.py" tooltip="GeoCircle/src/GeoCircle/geo/admin.py">
-<persistable path="/GeoCircle/src/GeoCircle/geo/admin.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="circleManager.py" tooltip="GeoCircle/src/Circle/circleManager.py">
-<persistable path="/GeoCircle/src/Circle/circleManager.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="CircleUser.py" tooltip="GeoCircle/src/Circle/CircleUser.py">
-<persistable path="/GeoCircle/src/Circle/CircleUser.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="GeoCircle/src/Circle/__init__.py">
-<persistable path="/GeoCircle/src/Circle/__init__.py"/>
 </file>
 </mruList>
 </workbench>

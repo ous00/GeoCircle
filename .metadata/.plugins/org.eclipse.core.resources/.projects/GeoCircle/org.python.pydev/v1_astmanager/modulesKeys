@@ -1,6 +1,7 @@
 MODULES_MANAGER_V1
 GeoCircle.__init__|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/__init__.py
 GeoCircle.content.__init__|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/__init__.py
+GeoCircle.content.admin|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/admin.py
 GeoCircle.content.models|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/models.py
 GeoCircle.content.tests|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/tests.py
 GeoCircle.content.views|/Users/qifei/Documents/Aptana Studio 3 Workspace/GeoCircle/src/GeoCircle/content/views.py
